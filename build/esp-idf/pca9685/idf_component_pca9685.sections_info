@@ -1,0 +1,110 @@
+In archive C:/Users/Arno/Documents/Git/proftaak2.3/individueel/IMC-Individueel/build/esp-idf/pca9685/libpca9685.a:
+
+pca9685.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.update_reg 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.pca9685_init_desc 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.pca9685_free_desc 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.pca9685_init 00000010  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.pca9685_set_subaddr 00000028  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.pca9685_restart 00000024  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.pca9685_is_sleeping 00000010  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.pca9685_sleep 00000014  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.pca9685_is_output_inverted 00000010  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.pca9685_set_output_inverted 00000010  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.pca9685_get_output_open_drain 00000010  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.pca9685_set_output_open_drain 00000010  00000000  00000000  000000f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.pca9685_get_prescaler 00000010  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.pca9685_set_prescaler 00000028  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.pca9685_get_pwm_frequency 00000014  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.pca9685_set_pwm_frequency 00000018  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.pca9685_set_pwm_value 00000044  00000000  00000000  0000016c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.pca9685_set_pwm_values 00000020  00000000  00000000  000001b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text         00000000  00000000  00000000  000001d0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 19 .data         00000000  00000000  00000000  000001d0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 20 .bss          00000000  00000000  00000000  000001d0  2**0
+                  ALLOC
+ 21 .text.update_reg 0000004c  00000000  00000000  000001d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.pca9685_init_desc 00000031  00000000  00000000  0000021c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.pca9685_free_desc 00000016  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.pca9685_init 00000051  00000000  00000000  00000268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .rodata.str1.4 000001e1  00000000  00000000  000002bc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .text.pca9685_set_subaddr 000000ca  00000000  00000000  000004a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.pca9685_restart 000000de  00000000  00000000  0000056c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.pca9685_is_sleeping 00000076  00000000  00000000  0000064c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.pca9685_sleep 00000069  00000000  00000000  000006c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.pca9685_is_output_inverted 00000076  00000000  00000000  00000730  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.pca9685_set_output_inverted 00000059  00000000  00000000  000007a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.pca9685_get_output_open_drain 00000076  00000000  00000000  00000804  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.pca9685_set_output_open_drain 00000059  00000000  00000000  0000087c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.pca9685_get_prescaler 00000066  00000000  00000000  000008d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.pca9685_set_prescaler 000000a2  00000000  00000000  00000940  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.pca9685_get_pwm_frequency 00000076  00000000  00000000  000009e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.pca9685_set_pwm_frequency 00000058  00000000  00000000  00000a5c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.pca9685_set_pwm_value 00000146  00000000  00000000  00000ab4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.pca9685_set_pwm_values 0000009e  00000000  00000000  00000bfc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .debug_frame  000001c0  00000000  00000000  00000c9c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_info   00001ea9  00000000  00000000  00000e5c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_abbrev 0000031c  00000000  00000000  00002d05  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 43 .debug_loc    00001c8b  00000000  00000000  00003021  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 44 .debug_aranges 000000a8  00000000  00000000  00004cac  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 45 .debug_ranges 000003d0  00000000  00000000  00004d54  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 46 .debug_line   00000ae0  00000000  00000000  00005124  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 47 .debug_str    00000957  00000000  00000000  00005c04  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 48 .comment      0000003c  00000000  00000000  0000655b  2**0
+                  CONTENTS, READONLY
+ 49 .xtensa.info  00000038  00000000  00000000  00006597  2**0
+                  CONTENTS, READONLY
+ 50 .xt.lit       00000090  00000000  00000000  000065cf  2**0
+                  CONTENTS, RELOC, READONLY
+ 51 .xt.prop      00000b04  00000000  00000000  0000665f  2**0
+                  CONTENTS, RELOC, READONLY

@@ -1,0 +1,96 @@
+In archive C:/Users/Arno/Documents/Git/proftaak2.3/individueel/IMC-Individueel/build/esp-idf/main/libmain.a:
+
+pwm.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.set_pwm_value 00000024  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.input_key_service_cb 00000070  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.disco_task 0000002c  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.initialize_audio_chip 00000028  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.setup_input_keys 00000034  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.pca9685_initialize 00000044  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal._set_color 00000018  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.set_color 00000018  00000000  00000000  000001ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.fade_animation 0000000c  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.fade_task 00000018  00000000  00000000  000001d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.app_main 00000018  00000000  00000000  000001e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text         00000000  00000000  00000000  00000200  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .data         00000000  00000000  00000000  00000200  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .bss          00000000  00000000  00000000  00000200  2**0
+                  ALLOC
+ 14 .rodata.str1.4 0000023a  00000000  00000000  00000200  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .text.set_pwm_value 0000004a  00000000  00000000  0000043c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.input_key_service_cb 00000198  00000000  00000000  00000488  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.disco_task 0000007a  00000000  00000000  00000620  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .rodata       00000054  00000000  00000000  0000069c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .text.initialize_audio_chip 00000055  00000000  00000000  000006f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.setup_input_keys 0000005a  00000000  00000000  00000748  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.pca9685_initialize 0000009e  00000000  00000000  000007a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text._set_color 00000030  00000000  00000000  00000844  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.set_color 000000c2  00000000  00000000  00000874  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.fade_animation 0000002c  00000000  00000000  00000938  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.fade_task 00000042  00000000  00000000  00000964  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.app_main 00000025  00000000  00000000  000009a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .rodata.__func__$11255 00000009  00000000  00000000  000009d0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .rodata.__func__$11204 00000013  00000000  00000000  000009dc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .bss.rgb_bools 00000008  00000000  00000000  000009f0  2**2
+                  ALLOC
+ 30 .bss.b        00000004  00000000  00000000  000009f0  2**2
+                  ALLOC
+ 31 .bss.g        00000004  00000000  00000000  000009f0  2**2
+                  ALLOC
+ 32 .bss.r        00000004  00000000  00000000  000009f0  2**2
+                  ALLOC
+ 33 .debug_frame  00000118  00000000  00000000  000009f0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_info   00001566  00000000  00000000  00000b08  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_abbrev 000002a4  00000000  00000000  0000206e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 36 .debug_loc    000001b4  00000000  00000000  00002312  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_aranges 00000070  00000000  00000000  000024c6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_ranges 00000060  00000000  00000000  00002536  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_line   00000748  00000000  00000000  00002596  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_str    00001174  00000000  00000000  00002cde  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 41 .comment      0000003c  00000000  00000000  00003e52  2**0
+                  CONTENTS, READONLY
+ 42 .xtensa.info  00000038  00000000  00000000  00003e8e  2**0
+                  CONTENTS, READONLY
+ 43 .xt.lit       00000058  00000000  00000000  00003ec6  2**0
+                  CONTENTS, RELOC, READONLY
+ 44 .xt.prop      00000414  00000000  00000000  00003f1e  2**0
+                  CONTENTS, RELOC, READONLY

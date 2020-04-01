@@ -1,0 +1,80 @@
+In archive C:/Users/Arno/Documents/Git/proftaak2.3/individueel/IMC-Individueel/build/esp-idf/i2cdev/libi2cdev.a:
+
+i2cdev.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.i2c_setup_port 0000001c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.i2cdev_init 00000018  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.i2cdev_done 00000030  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.i2c_dev_create_mutex 00000014  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.i2c_dev_delete_mutex 00000004  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.i2c_dev_take_mutex 00000014  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.i2c_dev_give_mutex 00000014  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.i2c_dev_read 00000060  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.i2c_dev_write 00000058  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text         00000000  00000000  00000000  00000190  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .data         00000000  00000000  00000000  00000190  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .bss          00000000  00000000  00000000  00000190  2**0
+                  ALLOC
+ 12 .text.i2c_setup_port 000000fd  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .rodata.str1.4 00000200  00000000  00000000  00000290  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .text.i2cdev_init 0000004d  00000000  00000000  00000490  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.i2cdev_done 0000009c  00000000  00000000  000004e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.i2c_dev_create_mutex 00000042  00000000  00000000  0000057c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.i2c_dev_delete_mutex 00000016  00000000  00000000  000005c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.i2c_dev_take_mutex 00000049  00000000  00000000  000005d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.i2c_dev_give_mutex 00000046  00000000  00000000  00000624  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.i2c_dev_read 00000162  00000000  00000000  0000066c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.i2c_dev_write 00000142  00000000  00000000  000007d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .bss.installed 00000001  00000000  00000000  00000912  2**0
+                  ALLOC
+ 23 .bss.configs  00000030  00000000  00000000  00000914  2**2
+                  ALLOC
+ 24 .bss.locks    00000008  00000000  00000000  00000914  2**2
+                  ALLOC
+ 25 .debug_frame  000000e8  00000000  00000000  00000914  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_info   00000e61  00000000  00000000  000009fc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_abbrev 00000228  00000000  00000000  0000185d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .debug_loc    000005ce  00000000  00000000  00001a85  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_aranges 00000060  00000000  00000000  00002053  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_ranges 00000068  00000000  00000000  000020b3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_line   0000064e  00000000  00000000  0000211b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_str    000007be  00000000  00000000  00002769  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 33 .comment      0000003c  00000000  00000000  00002f27  2**0
+                  CONTENTS, READONLY
+ 34 .xtensa.info  00000038  00000000  00000000  00002f63  2**0
+                  CONTENTS, READONLY
+ 35 .xt.lit       00000048  00000000  00000000  00002f9b  2**0
+                  CONTENTS, RELOC, READONLY
+ 36 .xt.prop      000004c8  00000000  00000000  00002fe3  2**0
+                  CONTENTS, RELOC, READONLY
